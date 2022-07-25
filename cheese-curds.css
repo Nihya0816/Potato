@@ -1,0 +1,41 @@
+.top-section{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.image-section{
+
+
+}
+
+.spongebob{
+    filter: hue-rotate(120deg);
+}
+
+.plankton{
+filter: hue-rotate(200deg);
+width: 200px; 
+animation: spin 50ms infinite;
+}
+
+body{
+    font-family: "Creepster";
+    background-color: blueviolet;
+    background-image: linear-gradient(to right, red,orange, yellow, green,blue,purple);
+}
+
+.imagination{
+text-align: center;
+
+}
+
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+        filter: hue-rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
